@@ -1,0 +1,270 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" );
+.sign-in {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: #fff;
+}
+.sign-in .container-fluid, .sign-in .loginform-container, .sign-in .blue-box-cont {
+    width: 100%;
+    height: 100vh;
+}
+.loginform-container{
+    width: 100%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 45px;
+}
+
+.ntspl-logo {
+    width: 340px;
+}
+.ntspl-logo {
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+form {
+    position: relative;
+    width: 400px;
+    height: calc(100vh - 85px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+.text h4 {
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.form-group {
+    margin: 0 !important;
+}
+.email-group {
+    margin: 30px 0 !important;
+}
+.mb-1 {
+    margin-bottom: .25rem !important;
+}
+label {
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+}
+
+.inner-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(202, 183, 221);
+    padding: 0 14px;
+    border-radius: 5px;
+    height: 40px;
+}
+.form-group input {
+    width: 100%;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    font-size: 14px;
+}
+.sign-in .blue-box-cont {
+    width: 100%;
+    height: 100vh;
+}
+.blue-box-cont {
+    padding: 15px 0;
+    position: relative;
+}
+.blue-box {
+    height: 100vh;
+    width: 100%;
+    background-color: #352396;
+    border-radius: 10px;
+    float: right;
+    overflow: hidden;
+}
+.blue-box:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    background-image: url(https://demo2.ntspl.co.in/assets/images/background.svg);
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    top: 0;
+    left: auto;
+    background-size: cover;
+}
+.slider-cont {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.blue-box h2 {
+    color: #fff;
+    text-align: center;
+}
+.blue-box h6 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.white-box {
+    height: 400px;
+    width: 425px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 1;
+}
+.white-box img {
+    width: 100%;
+}
+img, svg {
+    vertical-align: middle;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+.copyright {
+    position: relative;
+    text-align: center;
+    bottom: 35px;
+    left: auto;
+    transform: none;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.signin-btn1 {
+    padding: 7px 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #5522b2;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+}
+.or {
+    text-align: center;
+    position: relative;
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.or:before {
+    content: "";
+    height: 1px;
+    width: 45%;
+    position: absolute;
+    background-color: #8080804f;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.or:after {
+    content: "";
+    height: 1px;
+    width: 45%;
+    position: absolute;
+    background-color: #8080804f;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.signin-btn2 {
+    padding: 7px 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid rgba(137, 43, 226, .685);
+    color: #8a2be2;
+    font-size: 14px;
+}
+button:not(:disabled) {
+    cursor: pointer;
+}
+.set-pwd {
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0;
+    color: gray;
+}
+.set-pwd a {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+.form-group span {
+    color: red;
+}
+.pincode {
+    display: flex;
+}
+.digit{
+    margin-right: 10px;
+}
+.digit input {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+input[type=text], input[type=email] {
+    padding: 10px;
+}
+.form-group{
+    margin: 35px 0 !important;
+}
+.btn1 {
+    padding: 7px 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #5522b2;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+}
+.back-resend {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;
+    font-size: 14px;
+}
+.back {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.back span {
+    color: #0b77e8;
+}
+.btn-link{
+    color:red !important;
+}
