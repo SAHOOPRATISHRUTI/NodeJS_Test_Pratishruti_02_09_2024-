@@ -9,6 +9,7 @@ const verifyEmail = async (email) => {
     return await Employee.findOne({ email });
 };
 
+
 const requestOTP = async (email) => {
     try {
         const employee = await verifyEmail(email);
